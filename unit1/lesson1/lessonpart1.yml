@@ -1,0 +1,112 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart1
+title: Page 1
+content: >
+  ### What Are Variables?
+
+
+  In Python, a variable is a name that refers to a value stored in memory. Think
+  of a variable as a container that holds information you can use and manipulate
+  in your program. Variables make your code dynamic and reusable by allowing you
+  to store and update data.
+
+
+  ### Declaring Variables
+
+
+  To create a variable in Python, you simply assign a value to a name using the
+  `=` operator. For example:
+
+
+  ```python
+
+  # Assigning a value to a variable
+
+  name = "Alice"
+
+  age = 25
+
+  height = 5.6
+
+  ```
+
+
+  In this example:
+
+  - `name` is a variable that stores the string `"Alice"`.
+
+  - `age` is a variable that stores the integer `25`.
+
+  - `height` is a variable that stores the floating-point number `5.6`.
+
+
+  ### Rules for Variable Names
+
+
+  When naming variables in Python, follow these rules:
+
+  1. Variable names must start with a letter or an underscore (`_`).
+
+  2. They cannot start with a number.
+
+  3. Variable names can only contain letters, numbers, and underscores.
+
+  4. They are case-sensitive (`myVariable` and `myvariable` are different).
+
+
+  Examples of valid variable names:
+
+  ```python
+
+  my_variable = 10
+
+  _name = "John"
+
+  age2 = 30
+
+  ```
+
+
+  Examples of invalid variable names:
+
+  ```python
+
+  2name = "Error"  # Starts with a number
+
+  my-variable = 10  # Contains a hyphen
+
+  ```
+
+
+  ### Updating Variables
+
+
+  You can change the value of a variable at any time in your program. For
+  example:
+
+
+  ```python
+
+  score = 0  # Initial value
+
+  score = 10  # Updated value
+
+  print(score)  # Output: 10
+
+  ```
+
+
+  ### Why Are Variables Important?
+
+
+  Variables allow you to:
+
+  - Store data for later use.
+
+  - Make your programs flexible and dynamic.
+
+  - Write cleaner and more organized code.
+
+
+  In the next lesson, we’ll explore how to use variables with different data
+  types and operations.
