@@ -8,5 +8,8 @@ contacts:
   - displayName: Jacqueline Russell
     pictureUrl: https://avatars.githubusercontent.com/u/22108954?v=4
     homePageUrl: https://github.com/Jaqster
+files:
+  - path: course1/unit1/lesson1/lessonpart1/newFile.py
+    content: "# Please create a hello world program"
 units:
   - unit1/index.yml

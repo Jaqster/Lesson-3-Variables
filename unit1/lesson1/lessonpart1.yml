@@ -5,45 +5,47 @@ content: >
   ### What Are Variables?
 
 
-  In Python, a variable is a name that refers to a value stored in memory. Think
-  of a variable as a container that holds information you can use and manipulate
-  in your program. Variables make your code dynamic and reusable by allowing you
-  to store and update data.
+  In Python, a variable is like a container that holds information. Think of it
+  as a label you can use to store and access data in your program. For example,
+  you might use a variable to store a number, a word, or even a list of items.
 
 
-  ### Declaring Variables
+  ### Why Do We Use Variables?
 
 
-  To create a variable in Python, you simply assign a value to a name using the
-  `=` operator. For example:
+  Variables make it easier to write programs that can process and manipulate
+  data. Instead of hardcoding values, you can use variables to store information
+  that might change or be reused multiple times.
+
+
+  ### How to Create a Variable in Python
+
+
+  To create a variable in Python, you simply choose a name for your variable and
+  assign a value to it using the `=` operator. Here’s an example:
 
 
   ```python
 
-  # Assigning a value to a variable
+  # Creating a variable to store a number
 
-  name = "Alice"
+  age = 16
 
-  age = 25
 
-  height = 5.6
+  # Creating a variable to store a word
+
+  name = "Alex"
+
+
+  # Creating a variable to store a decimal number
+
+  height = 5.9
 
   ```
 
 
-  In this example:
+  ### Rules for Naming Variables
 
-  - `name` is a variable that stores the string `"Alice"`.
-
-  - `age` is a variable that stores the integer `25`.
-
-  - `height` is a variable that stores the floating-point number `5.6`.
-
-
-  ### Rules for Variable Names
-
-
-  When naming variables in Python, follow these rules:
 
   1. Variable names must start with a letter or an underscore (`_`).
 
@@ -51,62 +53,53 @@ content: >
 
   3. Variable names can only contain letters, numbers, and underscores.
 
-  4. They are case-sensitive (`myVariable` and `myvariable` are different).
+  4. They are case-sensitive, meaning `Age` and `age` are different variables.
 
 
-  Examples of valid variable names:
-
-  ```python
-
-  my_variable = 10
-
-  _name = "John"
-
-  age2 = 30
-
-  ```
+  ### Practice: Try It Yourself!
 
 
-  Examples of invalid variable names:
+  1. Create a variable called `favorite_color` and assign it your favorite color
+  as a string.
 
-  ```python
-
-  2name = "Error"  # Starts with a number
-
-  my-variable = 10  # Contains a hyphen
-
-  ```
+  2. Create a variable called `year` and assign it the current year as a number.
 
 
-  ### Updating Variables
-
-
-  You can change the value of a variable at any time in your program. For
-  example:
+  Example:
 
 
   ```python
 
-  score = 0  # Initial value
+  favorite_color = "blue"
 
-  score = 10  # Updated value
-
-  print(score)  # Output: 10
+  year = 2023
 
   ```
 
 
-  ### Why Are Variables Important?
+  ### Quick Tip
 
 
-  Variables allow you to:
-
-  - Store data for later use.
-
-  - Make your programs flexible and dynamic.
-
-  - Write cleaner and more organized code.
+  Use meaningful names for your variables so your code is easier to read and
+  understand. For example, use `age` instead of `a` or `height` instead of `h`.
 
 
-  In the next lesson, we’ll explore how to use variables with different data
-  types and operations.
+  Now that you know the basics of variables, you're ready to start using them in
+  your Python programs!
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: choice
+        content: Which of the following is a correct way to create a variable in Python?
+        options:
+          - id: "1"
+            value: 1age = 16
+            explanation: Variable names cannot start with a number.
+          - id: "2"
+            value: name = 'Alex'
+            explanation: This is a correct way to create a variable with a string value.
+            isCorrect: true
+          - id: "3"
+            value: height = 5.9.0
+            explanation: This is incorrect because the value is not a valid decimal number.
